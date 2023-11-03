@@ -1,5 +1,5 @@
 CS2 Skins Marketplace
-![Uploading Simulator Screenshot - iPhone 15 - 2023-11-03 at 16.20.58.png…]()
+![Simulator Screenshot - iPhone 15 - 2023-11-03 at 16 20 58](https://github.com/marcelodeabreu/Marketplace-App/assets/109244891/21991f5a-ab4f-4979-b447-e0d841eccb05)
 
 
 
