@@ -11,8 +11,13 @@ class MarketViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+<<<<<<< HEAD
         view.backgroundColor = .systemBackground
 
+=======
+
+        
+>>>>>>> 184e38febe7367dafa611b38f3e4981b60364528
     }
     
 
