@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		643428A22B299612003865AE /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643428A12B299612003865AE /* APICaller.swift */; };
 		645E6D5F2AF196200037E310 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E6D5E2AF196200037E310 /* AppDelegate.swift */; };
 		645E6D612AF196200037E310 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E6D602AF196200037E310 /* SceneDelegate.swift */; };
 		645E6D632AF196200037E310 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E6D622AF196200037E310 /* MainTabBarViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		643428A12B299612003865AE /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		645E6D5B2AF196200037E310 /* viewcodeAppExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewcodeAppExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		645E6D5E2AF196200037E310 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		645E6D602AF196200037E310 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		645E6D7F2AF1A7900037E310 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				643428A12B299612003865AE /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				645E6D7A2AF19BF90037E310 /* UserViewController.swift in Sources */,
 				645E6D632AF196200037E310 /* MainTabBarViewController.swift in Sources */,
 				645E6D812AF1A8240037E310 /* CollectionViewTableViewCell.swift in Sources */,
+				643428A22B299612003865AE /* APICaller.swift in Sources */,
 				646873442AF2DE300050CB85 /* HeroHeaderUIView.swift in Sources */,
 				645E6D782AF19BC60037E310 /* InventoryViewController.swift in Sources */,
 				645E6D5F2AF196200037E310 /* AppDelegate.swift in Sources */,

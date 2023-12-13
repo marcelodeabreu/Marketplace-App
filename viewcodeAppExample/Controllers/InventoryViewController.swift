@@ -12,6 +12,22 @@ class InventoryViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        configureNavBar()
+    }
+    
+    private func configureNavBar() {
+        
+        navigationItem.leftBarButtonItems = [
+            UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: .done, target: self, action: nil)
+        ]
+        
+        navigationItem.rightBarButtonItems = [
+        
+            UIBarButtonItem(image: UIImage(systemName: "dollarsign"), style: .done, target: self, action: nil),
+            UIBarButtonItem(image: UIImage(systemName: "plus.app"), style: .done, target: self, action: nil)
+            
+        ]
+        navigationController?.navigationBar.tintColor = .systemGray
         
     }
     

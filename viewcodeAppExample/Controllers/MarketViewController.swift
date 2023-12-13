@@ -11,16 +11,25 @@ class MarketViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-<<<<<<< HEAD
-        view.backgroundColor = .systemBackground
 
-=======
-
+        configureNavBar()
         
->>>>>>> 184e38febe7367dafa611b38f3e4981b60364528
     }
     
-
+    private func configureNavBar() {
+        
+        navigationItem.leftBarButtonItems = [
+            UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: .done, target: self, action: nil)
+        ]
+        
+        navigationItem.rightBarButtonItems = [
+        
+            UIBarButtonItem(image: UIImage(systemName: "dollarsign"), style: .done, target: self, action: nil),
+            UIBarButtonItem(image: UIImage(systemName: "plus.app"), style: .done, target: self, action: nil)
+            
+        ]
+        navigationController?.navigationBar.tintColor = .systemGray
+        
+    }
     
-
 }

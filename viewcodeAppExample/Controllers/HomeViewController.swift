@@ -3,7 +3,21 @@
 //  viewcodeAppExample
 //
 //  Created by Marcelo de Abreu on 31/10/23.
-//
+
+/*
+ 
+ Home View:
+ 
+ 1. Banner
+ 
+ 2. Displaying random skins currently available at the market divided in diffent categories, such as:
+        ["newly listed", "popular", "special floats", "price drops", "with stickers"]
+ 
+ 3.
+ 
+ */
+
+// ------------------------------------ x ------------------------------------
 
 import UIKit
 
@@ -35,10 +49,14 @@ class HomeViewController: UIViewController {
     
     private func configureNavBar() {
         
+        navigationItem.leftBarButtonItems = [
+            UIBarButtonItem(image: UIImage(systemName: "text.justify"), style: .done, target: self, action: nil)
+        ]
+        
         navigationItem.rightBarButtonItems = [
         
             UIBarButtonItem(image: UIImage(systemName: "dollarsign"), style: .done, target: self, action: nil),
-            UIBarButtonItem(image: UIImage(systemName: "person.fill"), style: .done, target: self, action: nil)
+            UIBarButtonItem(image: UIImage(systemName: "plus.app"), style: .done, target: self, action: nil)
             
         ]
         navigationController?.navigationBar.tintColor = .systemGray
@@ -91,16 +109,18 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         header.textLabel?.textColor = .white
         header.textLabel?.text = header.textLabel?.text?.lowercased()
     }
-    
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        let defaultOffSet = view.safeAreaInsets.top
-        let offset = scrollView.contentOffset.y + defaultOffSet
-        
-        navigationController?.navigationBar.transform = .init(translationX: 0, y: min(0, -offset))
-    }
-    
-    
-    
+
+
+    //
+    //      >>>>>> We won't use the function scrollViewDidScroll with navbar because we want the user to be able to see their current balance all the time.
+    //
+    //    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    //        let defaultOffSet = view.safeAreaInsets.top
+    //        let offset = scrollView.contentOffset.y + defaultOffSet
+    //        
+    //        navigationController?.navigationBar.transform = .init(translationX: 0, y: min(0, -offset))
+    //    }
+    //
     
     
 }
