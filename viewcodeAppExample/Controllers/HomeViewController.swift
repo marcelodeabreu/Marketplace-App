@@ -10,7 +10,7 @@
  
  1. Banner
  
- 2. Displaying random skins currently available at the market divided in diffent categories, such as:
+ 2. Displaying random skins currently available in the market divided in diffent categories, such as:
         ["newly listed", "popular", "special floats", "price drops", "with stickers"]
  
  3.
